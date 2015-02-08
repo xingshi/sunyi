@@ -1,0 +1,3 @@
+sun_yi_shop_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: SunYiShopBundle:Default:index }

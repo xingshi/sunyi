@@ -11,7 +11,8 @@ class AppKernel extends Kernel
     public function registerBundles()
     {
         $bundles = array(
-        	new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle()
+        	new Sensio\Bundle\GeneratorBundle\SensioGeneratorBundle(),
+        	new SunYi\Bundle\ShopBundle\SunYiShopBundle()
         );
 
         return array_merge(parent::registerBundles(), $bundles);

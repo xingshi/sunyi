@@ -1,3 +1,7 @@
+sun_yi_shop:
+    resource: "@SunYiShopBundle/Resources/config/routing.yml"
+    prefix:   /
+
 sylius_installer:
     resource: @SyliusInstallerBundle/Resources/config/routing.yml
 
@@ -46,4 +50,4 @@ facebook_login:
 google_login:
     pattern: /login/check-google
 symfony_cmf:
-              resource: @CmfCreateBundle/Resources/config/routing/rest_no_locale.xml
+    resource: @CmfCreateBundle/Resources/config/routing/rest_no_locale.xml
